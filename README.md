@@ -1,2 +1,2 @@
-# mental-health-assessment
-Created with CodeSandbox
+# Mental Health Aassessment
+A quiz application for testing mental health condition
