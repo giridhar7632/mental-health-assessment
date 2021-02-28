@@ -5,9 +5,10 @@
     "compilerOptions": {
         "strict": true,
         "esModuleInterop": true,
+        "resolveJsonModule": true,
         "lib": [
             "dom",
-            "es2015"
+            "esnext"
         ],
         "jsx": "react-jsx"
     }

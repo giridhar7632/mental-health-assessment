@@ -1,39 +1,38 @@
-import React from "react";
+import React from 'react'
+import { AnswerObject } from '../App'
 
 type Props = {
-  question: string;
-  prevQuestion: string;
-  nextQuestion: string;
-  options: string[];
-  callback: any;
-  questionNr: number;
-  totalQuestions: number;
-};
+  question: string
+  options: string[]
+  userAnswer: AnswerObject | undefined
+  callback: (e: React.MouseEvent<HTMLButtonElement>) => void
+  questionNr: number
+  totalQuestions: number
+}
 
 const QuestionCard: React.FC<Props> = ({
   question,
-  prevQuestion,
-  nextQuestion,
   options,
+  userAnswer,
   callback,
   questionNr,
   totalQuestions
 }) => (
   <div>
     <p className="number">
-      Quesrion {questionNr}/{totalQuestions}
+      Question {questionNr}/{totalQuestions}
     </p>
     <p dangerouslySetInnerHTML={{ __html: question }} />
     <div>
       {options.map((option) => (
-        <div>
-          <button onClick={callback}>
+        <div key={option}>
+          <button disabled={!!userAnswer} value={option} onClick={callback}>
             <span dangerouslySetInnerHTML={{ __html: option }}></span>
           </button>
         </div>
       ))}
     </div>
   </div>
-);
+)
 
-export default QuestionCard;
+export default QuestionCard

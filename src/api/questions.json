@@ -2,81 +2,96 @@
   {
     "id": 1,
     "question": "Describe your current mood?",
-    "optionA": ["Pretty happy", 1],
-    "optionB": ["I’m worried about some things", 2],
-    "optionC": ["Antisocial", 3],
-    "optionD": ["Terrible, I’m fed up", 4]
+    "options": [
+      "Pretty happy",
+      "I’m worried about some things",
+      "Antisocial",
+      "Terrible, I’m fed up"
+    ]
   },
   {
     "id": 2,
     "question": "How do people describe you?",
-    "optionA": ["Happy", 1],
-    "optionB": ["Socially awkward", 2],
-    "optionC": ["Cold", 3],
-    "optionD": ["Unhappy", 4]
+    "options": ["Happy", "Socially awkward", "Cold", "Unhappy"]
   },
   {
     "id": 3,
     "question": "Do you think you have a mental health issue?",
-    "optionA": ["I don’t think so", 1],
-    "optionB": ["I’m worried that I’m too anxious", 2],
-    "optionC": ["I think I’m too antisocial", 3],
-    "optionD": ["Well, I feel very sad a lot of the time", 4]
+    "options": [
+      "I don’t think so",
+      "I’m worried that I’m too anxious",
+      "I think I’m too antisocial",
+      "Well, I feel very sad a lot of the time"
+    ]
   },
   {
     "id": 4,
     "question": "What’s your role in your Family?",
-    "optionA": ["The fun, sociable one", 1],
-    "optionB": ["The sensible one", 2],
-    "optionC": ["I don’t have a role, I’m an outsider", 3],
-    "optionD": ["The quiet one", 4]
+    "options": [
+      "The fun, sociable one",
+      "The sensible one",
+      "I don’t have a role, I’m an outsider",
+      "The quiet one"
+    ]
   },
   {
     "id": 5,
     "question": "Do you like to Socialize?",
-    "optionA": ["Yes, I love hanging out", 1],
-    "optionB": ["Yes, if it’s with people I know", 2],
-    "optionC": ["No, I like being alone", 3],
-    "optionD": ["If I can avoid it I will", 4]
+    "options": [
+      "Yes, I love hanging out",
+      "Yes, if it’s with people I know",
+      "No, I like being alone",
+      "If I can avoid it I will"
+    ]
   },
   {
     "id": 6,
     "question": "Choose a quote",
-    "optionA": ["Always look on the bright side of life", 1],
-    "optionB": ["Worrying is as productive as chewing gum", 2],
-    "optionC": ["Life’s a bitch, then you die", 3],
-    "optionD": ["Hard times reveal true friends", 4]
+    "options": [
+      "Always look on the bright side of life",
+      "Worrying is as productive as chewing gum",
+      "Life’s a bitch, then you die",
+      "Hard times reveal true friends"
+    ]
   },
   {
     "id": 7,
     "question": "Are you in control of your Emotions?",
-    "optionA": ["Yes, pretty much all of the time", 1],
-    "optionB": ["Not really, no", 2],
-    "optionC": ["I don’t really have emotions", 3],
-    "optionD": ["Yes, I’d say so", 4]
+    "options": [
+      "Yes, pretty much all of the time",
+      "Not really, no",
+      "I don’t really have emotions",
+      "Yes, I’d say so"
+    ]
   },
   {
     "id": 8,
     "question": "How do you spend your free time?",
-    "optionA": ["Seeing friends and family", 1],
-    "optionB": ["Thinking about things", 2],
-    "optionC": ["I love to watch horror movies", 3],
-    "optionD": ["Listening to music", 4]
+    "options": [
+      "Seeing friends and family",
+      "Thinking about things",
+      "I love to watch horror movies",
+      "Listening to music"
+    ]
   },
   {
     "id": 9,
     "question": "Choose one wish",
-    "optionA": ["To always be this happy", 1],
-    "optionB": ["To be able to stop worrying", 2],
-    "optionC": ["To be on my own more", 3],
-    "optionD": ["To a tleast feel content", 4]
+    "options": [
+      "To always be this happy",
+      "To be able to stop worrying",
+      "To be on my own more",
+      "To a tleast feel content"
+    ]
   },
   {
     "id": 10,
     "question": "Do you love life?",
-    "optionA": ["Yes, I really do", 1],
-    "optionB": ["I do, but I wish it was easier", 2],
-    "optionC": ["No, not really", 3],
-    "optionD": ["I try, but it’s a struggle for me", 4]
+    "options": [
+      "Yes, I really do",
+      "I do, but I wish it was easier",
+      "No, not really",
+      "I try, but it’s a struggle for me"
+    ]
   }
 ]
